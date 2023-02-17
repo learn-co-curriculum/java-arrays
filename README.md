@@ -152,6 +152,10 @@ print out the value `0` for any element that is not assigned:
 
 ![print-default-integer-array](https://curriculum-content.s3.amazonaws.com/java-mod-1/arrays/print-default-integer-array.png)
 
+If we want to look at what the array looks like in memory, see the
+browser-based visualizer
+[here](https://pythontutor.com/visualize.html#code=public%20class%20ArrayExample%20%7B%0A%20%20%20%20public%20static%20void%20main%28String%5B%5D%20args%29%20%7B%0A%20%20%20%20%20%20%20%20int%20%5B%5D%20numbers%20%3D%20new%20int%5B3%5D%3B%0A%20%20%20%20%20%20%20%20for%20%28int%20number%20%3A%20numbers%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20System.out.println%28number%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%7D&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=java&rawInputLstJSON=%5B%5D&textReferences=false).
+
 If we have an array of `double` data types, it will print out the value `0.0`
 for any element that is not assigned:
 
